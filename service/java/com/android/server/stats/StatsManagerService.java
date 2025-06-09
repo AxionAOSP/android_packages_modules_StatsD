@@ -675,9 +675,6 @@ public class StatsManagerService extends IStatsManagerService.Stub {
     }
 
     private void enforceRegisterStatsPullAtomPermission() {
-        mContext.enforceCallingOrSelfPermission(
-                android.Manifest.permission.REGISTER_STATS_PULL_ATOM,
-                "Need REGISTER_STATS_PULL_ATOM permission.");
     }
 
 
